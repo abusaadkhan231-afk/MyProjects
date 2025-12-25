@@ -17,8 +17,8 @@ public class ShareToFacebookServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     // ⚠️ Replace with your actual credentials
-    private static final String PAGE_ID = "730508666816146";
-    private static final String PAGE_ACCESS_TOKEN = "EAAXusMgupB0BPHNZAYerjXZApNkD3rqyS5ZAK0v769F3G2RJ5ZCo8cJbzk3vDh36frTSABejckezr6Gdlg9sDQH3FeHmIuI9krOsremF1DyBGnClGIICAWR5sfVnbdVuKyOLI8NiDCZAytcqzvNrmaqYSvKCgDiyHtu17mIqsRVxZCpcFuNvhRZCm28pRET3LQ8juTgQlcm"; // your token
+    private static final String PAGE_ID = ""; //your id
+    private static final String PAGE_ACCESS_TOKEN = ""; // your token
     private static final String UPLOAD_DIR = "C:/civicapp_uploads/";
 
     
@@ -134,4 +134,5 @@ public class ShareToFacebookServlet extends HttpServlet {
             }
         }
     }
+
 
